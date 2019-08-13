@@ -32,6 +32,11 @@ const config = {
     hot: true,
     host: '0.0.0.0',
   },
+  resolve: {
+    alias: {
+      'slate-react': '@upsilon/slate-react',
+    },
+  },
   module: {
     rules: [
       {
